@@ -1,0 +1,10 @@
+/home/amir/CPP/sheet04/exercise1/build/CMakeFiles/lint.dir
+/home/amir/CPP/sheet04/exercise1/build/CMakeFiles/edit_cache.dir
+/home/amir/CPP/sheet04/exercise1/build/CMakeFiles/rebuild_cache.dir
+/home/amir/CPP/sheet04/exercise1/build/lib/CMakeFiles/arithmetic_types_core.dir
+/home/amir/CPP/sheet04/exercise1/build/lib/CMakeFiles/lint_arithmetic_types_core.dir
+/home/amir/CPP/sheet04/exercise1/build/lib/CMakeFiles/edit_cache.dir
+/home/amir/CPP/sheet04/exercise1/build/lib/CMakeFiles/rebuild_cache.dir
+/home/amir/CPP/sheet04/exercise1/build/test/CMakeFiles/tester.dir
+/home/amir/CPP/sheet04/exercise1/build/test/CMakeFiles/edit_cache.dir
+/home/amir/CPP/sheet04/exercise1/build/test/CMakeFiles/rebuild_cache.dir

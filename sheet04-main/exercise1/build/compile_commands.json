@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/amir/CPP/sheet04/exercise1/build/lib",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet04/exercise1  -Wall -Wextra -Wpedantic -Werror -std=gnu++20 -o CMakeFiles/arithmetic_types_core.dir/Complex.cpp.o -c /home/amir/CPP/sheet04/exercise1/lib/Complex.cpp",
+  "file": "/home/amir/CPP/sheet04/exercise1/lib/Complex.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet04/exercise1/build/lib",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet04/exercise1  -Wall -Wextra -Wpedantic -Werror -std=gnu++20 -o CMakeFiles/arithmetic_types_core.dir/Rational.cpp.o -c /home/amir/CPP/sheet04/exercise1/lib/Rational.cpp",
+  "file": "/home/amir/CPP/sheet04/exercise1/lib/Rational.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet04/exercise1/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet04/exercise1  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/Tester.cpp.o -c /home/amir/CPP/sheet04/exercise1/test/Tester.cpp",
+  "file": "/home/amir/CPP/sheet04/exercise1/test/Tester.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet04/exercise1/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet04/exercise1  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/TestComplex.cpp.o -c /home/amir/CPP/sheet04/exercise1/test/TestComplex.cpp",
+  "file": "/home/amir/CPP/sheet04/exercise1/test/TestComplex.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet04/exercise1/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet04/exercise1  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/TestRational.cpp.o -c /home/amir/CPP/sheet04/exercise1/test/TestRational.cpp",
+  "file": "/home/amir/CPP/sheet04/exercise1/test/TestRational.cpp"
+}
+]

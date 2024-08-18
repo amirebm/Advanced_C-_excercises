@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/amir/CPP/sheet05/exercise1/build/lib",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet05/exercise1  -Wall -Wextra -Wpedantic -Werror -std=gnu++20 -o CMakeFiles/chaining_ht_core.dir/GenericValue.cpp.o -c /home/amir/CPP/sheet05/exercise1/lib/GenericValue.cpp",
+  "file": "/home/amir/CPP/sheet05/exercise1/lib/GenericValue.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet05/exercise1/build/lib",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet05/exercise1  -Wall -Wextra -Wpedantic -Werror -std=gnu++20 -o CMakeFiles/chaining_ht_core.dir/ChainingHashTable.cpp.o -c /home/amir/CPP/sheet05/exercise1/lib/ChainingHashTable.cpp",
+  "file": "/home/amir/CPP/sheet05/exercise1/lib/ChainingHashTable.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet05/exercise1/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet05/exercise1  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/Tester.cpp.o -c /home/amir/CPP/sheet05/exercise1/test/Tester.cpp",
+  "file": "/home/amir/CPP/sheet05/exercise1/test/Tester.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet05/exercise1/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet05/exercise1  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/TestChainingHashTable.cpp.o -c /home/amir/CPP/sheet05/exercise1/test/TestChainingHashTable.cpp",
+  "file": "/home/amir/CPP/sheet05/exercise1/test/TestChainingHashTable.cpp"
+}
+]

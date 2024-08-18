@@ -1,0 +1,10 @@
+/home/amir/CPP/sheet04/exercise2/build/CMakeFiles/lint.dir
+/home/amir/CPP/sheet04/exercise2/build/CMakeFiles/edit_cache.dir
+/home/amir/CPP/sheet04/exercise2/build/CMakeFiles/rebuild_cache.dir
+/home/amir/CPP/sheet04/exercise2/build/lib/CMakeFiles/bitset_core.dir
+/home/amir/CPP/sheet04/exercise2/build/lib/CMakeFiles/lint_bitset_core.dir
+/home/amir/CPP/sheet04/exercise2/build/lib/CMakeFiles/edit_cache.dir
+/home/amir/CPP/sheet04/exercise2/build/lib/CMakeFiles/rebuild_cache.dir
+/home/amir/CPP/sheet04/exercise2/build/test/CMakeFiles/tester.dir
+/home/amir/CPP/sheet04/exercise2/build/test/CMakeFiles/edit_cache.dir
+/home/amir/CPP/sheet04/exercise2/build/test/CMakeFiles/rebuild_cache.dir

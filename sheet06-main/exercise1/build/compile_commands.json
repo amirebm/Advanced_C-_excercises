@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/amir/simin/sheet06/exercise1/build/lib",
+  "command": "/usr/bin/c++  -I/home/amir/simin/sheet06/exercise1  -Wall -Wextra -Wpedantic -Werror -std=gnu++20 -o CMakeFiles/ast_core.dir/AST.cpp.o -c /home/amir/simin/sheet06/exercise1/lib/AST.cpp",
+  "file": "/home/amir/simin/sheet06/exercise1/lib/AST.cpp"
+},
+{
+  "directory": "/home/amir/simin/sheet06/exercise1/build/lib",
+  "command": "/usr/bin/c++  -I/home/amir/simin/sheet06/exercise1  -Wall -Wextra -Wpedantic -Werror -std=gnu++20 -o CMakeFiles/ast_core.dir/EvaluationContext.cpp.o -c /home/amir/simin/sheet06/exercise1/lib/EvaluationContext.cpp",
+  "file": "/home/amir/simin/sheet06/exercise1/lib/EvaluationContext.cpp"
+},
+{
+  "directory": "/home/amir/simin/sheet06/exercise1/build/lib",
+  "command": "/usr/bin/c++  -I/home/amir/simin/sheet06/exercise1  -Wall -Wextra -Wpedantic -Werror -std=gnu++20 -o CMakeFiles/ast_core.dir/PrintVisitor.cpp.o -c /home/amir/simin/sheet06/exercise1/lib/PrintVisitor.cpp",
+  "file": "/home/amir/simin/sheet06/exercise1/lib/PrintVisitor.cpp"
+},
+{
+  "directory": "/home/amir/simin/sheet06/exercise1/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/simin/sheet06/exercise1  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/Tester.cpp.o -c /home/amir/simin/sheet06/exercise1/test/Tester.cpp",
+  "file": "/home/amir/simin/sheet06/exercise1/test/Tester.cpp"
+},
+{
+  "directory": "/home/amir/simin/sheet06/exercise1/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/simin/sheet06/exercise1  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/TestAST.cpp.o -c /home/amir/simin/sheet06/exercise1/test/TestAST.cpp",
+  "file": "/home/amir/simin/sheet06/exercise1/test/TestAST.cpp"
+},
+{
+  "directory": "/home/amir/simin/sheet06/exercise1/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/simin/sheet06/exercise1  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/TestPrintVisitor.cpp.o -c /home/amir/simin/sheet06/exercise1/test/TestPrintVisitor.cpp",
+  "file": "/home/amir/simin/sheet06/exercise1/test/TestPrintVisitor.cpp"
+}
+]

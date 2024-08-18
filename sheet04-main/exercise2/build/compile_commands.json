@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/amir/CPP/sheet04/exercise2/build/lib",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet04/exercise2  -Wall -Wextra -Wpedantic -Werror -std=gnu++20 -o CMakeFiles/bitset_core.dir/BitSet.cpp.o -c /home/amir/CPP/sheet04/exercise2/lib/BitSet.cpp",
+  "file": "/home/amir/CPP/sheet04/exercise2/lib/BitSet.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet04/exercise2/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet04/exercise2  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/Tester.cpp.o -c /home/amir/CPP/sheet04/exercise2/test/Tester.cpp",
+  "file": "/home/amir/CPP/sheet04/exercise2/test/Tester.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet04/exercise2/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet04/exercise2  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/TestBitSet.cpp.o -c /home/amir/CPP/sheet04/exercise2/test/TestBitSet.cpp",
+  "file": "/home/amir/CPP/sheet04/exercise2/test/TestBitSet.cpp"
+}
+]

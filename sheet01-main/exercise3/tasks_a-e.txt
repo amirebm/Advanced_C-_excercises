@@ -1,0 +1,57 @@
+########################
+# Solution to task (a) #
+########################
+
+Make is a tool that automates the building of software
+by managing the compilation process based on changes in source code.
+
+########################
+# Solution to task (b) #
+########################
+
+Rules in a Makefile specify dependencies and actions, 
+where a rule contains a target, prerequisites, and a recipe to build the target.
+
+A phony target in a Makefile is a target that does not represent a file and
+ is used for tasks such as cleanup or other non-file-related actions, 
+ preventing conflicts with actual file names.
+
+########################
+# Solution to task (c) #
+########################
+
+In a Makefile, variables can be of two types:
+ Simply expanded variables (set with :=) evaluate 
+ immediately and remain static during the execution of Make,
+ whereas recursively expanded variables (set with =) are
+  re-evaluated each time they are referenced in the Makefile.
+
+########################
+# Solution to task (d) #
+########################
+
+Use = to set a variable with a simple assignment.
+
+Use ?= to set a variable only if it's currently undefined,
+allowing users to override the default value externally.
+
+Use += to append or add values to an existing variable, 
+beneficial when incrementally updating variable values,
+ like adding compiler flags or paths.
+
+The value of a variable can be influenced externally
+ using environment variables, which take precedence 
+ over the values defined in the Makefile. 
+ This is done by simply specifying the variable 
+ when calling make, for example: make VARIABLE_NAME=new_value.
+
+########################
+# Solution to task (e) #
+########################
+
+Automatic variables in a Makefile are predefined variables 
+that hold information about the current target and dependencies during the execution of rules.
+
+$@ represents the target file's name in a rule.
+$< signifies the first dependency of a rule.
+$^ stands for all dependencies of a rule without duplicates.

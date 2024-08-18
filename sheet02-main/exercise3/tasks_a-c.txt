@@ -1,0 +1,47 @@
+########################
+# Solution to task (a) #
+########################
+
+C++ programs must avoid undefined behavior because 
+it means the language standard doesn't specify what should happen,
+ leading to unpredictable outcomes. While some compilers may provide
+  fallbacks for certain cases, relying on them can result in inconsistent 
+  behavior across compilers. To ensure program reliability and portability,
+  it's essential to adhere strictly to defined behavior outlined in the C++ standard.
+
+########################
+# Solution to task (b) #
+########################
+In this task, we have a function titled "nopredictablemethod."
+ Within this function, an uninitialized variable is denoted as 
+ "noinitialvalue." The function assesses whether this variable exceeds 0
+  and yields 1 in the affirmative case; otherwise, it provides a 0.
+   Subsequently, in the primary function, the outcome of invoking 
+   "nopredictablemethod" is displayed on the console.
+
+#include <iostream>
+
+int nopredictablemethod() {
+    int noinitialvalue;  
+
+    if (noinitialvalue > 0) {
+        return 1; 
+    } else {
+        return 0;
+    }
+}
+
+int main() {
+    int result = nopredictablemethod();
+    std::cout << "Result: " << result << std::endl;
+    return 0;
+}
+
+########################
+# Solution to task (c) #
+########################
+
+
+With -O0, the assembly includes the full nopredictablemethod function with conditionals,
+   but with -O1, the compiler optimizes by replacing the function with a streamlined
+    mov eax, 0; ret, removing unnecessary conditional logic for improved performance.  

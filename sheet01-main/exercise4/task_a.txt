@@ -1,0 +1,41 @@
+########################
+# Solution to task (a) #
+########################
+
+To force CMake to compile C++ code using the C++20 standard, 
+we can use the CMAKE_CXX_STANDARD variable. 
+This variable allows us to specify the C++ standard
+to be used in the compilation process. 
+example for how to set it to C++20: set(CMAKE_CXX_STANDARD 20)
+
+We can place this line in the CMakeLists.txt file before defining our targets 
+or anywhere before the targets are created. This will instruct CMake to use 
+the C++20 standard for compiling C++ code.
+
+To identify the underlying operating system, CMake provides the variable CMAKE_SYSTEM_NAME.
+To test compiler support for the -march=native flag using CheckCXXCompilerFlag in CMake.
+to locate the 'sed' program we can use find_program command in CMake.
+
+Example for identifing the underlying operating system
+if(CMAKE_SYSTEM_NAME STREQUAL "linux")
+    # Code for examp UNIX-like systems
+
+Example for testing compiler support for the -march=native flag using CheckCXXCompilerFlag in CMake.
+include(CheckCXXCompilerFlag)
+check_cxx_compiler_flag("-march=native" COMPILER_SUPPORTS_MARCH_NATIVE)
+
+if(COMPILER_SUPPORTS_MARCH_NATIVE)
+    message("Compiler supports -march=native flag.")
+    
+else()
+    message("Compiler does not support -march=native flag.")
+   
+endif()
+
+Example for using the find_program command in CMake to locate the sed program
+if(SED_EXECUTABLE)
+    message("sed found at: ${SED_EXECUTABLE}")
+else()
+    message("sed is not found.")
+endif()
+

@@ -1,0 +1,11 @@
+/home/amir/CPP/sheet05/exercise2/build/CMakeFiles/lint.dir
+/home/amir/CPP/sheet05/exercise2/build/CMakeFiles/raii.dir
+/home/amir/CPP/sheet05/exercise2/build/CMakeFiles/edit_cache.dir
+/home/amir/CPP/sheet05/exercise2/build/CMakeFiles/rebuild_cache.dir
+/home/amir/CPP/sheet05/exercise2/build/lib/CMakeFiles/raii_core.dir
+/home/amir/CPP/sheet05/exercise2/build/lib/CMakeFiles/lint_raii_core.dir
+/home/amir/CPP/sheet05/exercise2/build/lib/CMakeFiles/edit_cache.dir
+/home/amir/CPP/sheet05/exercise2/build/lib/CMakeFiles/rebuild_cache.dir
+/home/amir/CPP/sheet05/exercise2/build/test/CMakeFiles/tester.dir
+/home/amir/CPP/sheet05/exercise2/build/test/CMakeFiles/edit_cache.dir
+/home/amir/CPP/sheet05/exercise2/build/test/CMakeFiles/rebuild_cache.dir

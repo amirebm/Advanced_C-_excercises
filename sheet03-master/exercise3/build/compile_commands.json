@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/amir/CPP/sheet03/exercise3/build/lib",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet03/exercise3  -Wall -Wextra -Wpedantic -Werror -std=gnu++20 -o CMakeFiles/object_representation_core.dir/ObjectRepresentation.cpp.o -c /home/amir/CPP/sheet03/exercise3/lib/ObjectRepresentation.cpp",
+  "file": "/home/amir/CPP/sheet03/exercise3/lib/ObjectRepresentation.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet03/exercise3/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet03/exercise3  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/Tester.cpp.o -c /home/amir/CPP/sheet03/exercise3/test/Tester.cpp",
+  "file": "/home/amir/CPP/sheet03/exercise3/test/Tester.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet03/exercise3/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet03/exercise3  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/TestObjectRepresentation.cpp.o -c /home/amir/CPP/sheet03/exercise3/test/TestObjectRepresentation.cpp",
+  "file": "/home/amir/CPP/sheet03/exercise3/test/TestObjectRepresentation.cpp"
+}
+]

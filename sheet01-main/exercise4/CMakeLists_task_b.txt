@@ -1,0 +1,34 @@
+cmake_minimum_required(VERSION 3.10)
+project(Exercise4)
+
+
+option(ENABLE_NATIVE_ARCH "Enabling native archtecture" OFF)
+set(NATIVE_ARCH_FLAGS "" CACHE STRING "List of native architecture flags")
+
+set(FALLBACK_FLAGS "-march=native" "-march=sandybridge" "/arch:AVX")
+
+
+if(ENABLE_NATIVE_ARCH)
+    set(COMPILER_FLAG "")
+    foreach(flag ${NATIVE_ARCH_FLAGS} ${FALLBACK_FLAGS})
+        try_compile(FLAG_WORKS ${CMAKE_BINARY_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/cmake/CheckCompilerFlag.cpp
+                    COMPILE_DEFINITIONS "-DCOMPILER_FLAG=${flag}")
+        if(FLAG_WORKS)
+            set(COMPILER_FLAG ${flag})
+            break()
+        endif()
+    endforeach()
+
+    if(NOT COMPILER_FLAG)
+        message( "architecture flag is not supported found for compilation.")
+    else()
+        message(STATUS "Using compiler flag: ${COMPILER_FLAG}")
+    endif()
+endif()
+
+if(COMPILER_FLAG)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${COMPILER_FLAG}")
+endif()
+
+
+

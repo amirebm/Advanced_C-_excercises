@@ -1,0 +1,67 @@
+########################
+# Solution to task (a) #
+########################
+
+Information about available CPUs in the proc filesystem is located 
+in the file "/proc/cpuinfo." This file contains details about the
+ processor(s) in our system.
+
+To display CPU information in a more readable format,
+ we can use the command "lscpu" This command utilizes 
+ the data from the /proc filesystem and presents the CPU
+ information in a more structured and friendly manner,
+ making it easier to interpret details such as CPU architecture, 
+ model, cores, cache sizes, and more.
+
+
+########################
+# Solution to task (b) #
+########################
+At first  we use man g++ | grep -- --help or  this command : g++ --help
+now in order to find Which -m<option> options does g++ set on our system 
+when using -march=native we write this command : 
+g++ -march=native -Q --help=target
+-Q is an option that asks the compiler to output details and settings
+ related to the target architecture, including the specific -m<option>
+  flags set by the -march=native flag.
+
+
+########################
+# Solution to task (c) #
+########################
+
+-m64 (64-bit mode) - [enabled]:
+Enables the compiler to generate code optimized for 64-bit systems, 
+allowing larger memory access and potential performance improvements 
+due to expanded address space.
+
+-mfpmath=sse (Floating Point Math) - [enabled]:
+Utilizes SSE (Streaming SIMD Extensions) for 
+floating-point operations, enhancing mathematical
+ calculations by leveraging vectorized instructions for improved performance.
+
+-mavx (Advanced Vector Extensions) - [enabled]:
+Activates AVX, a set of advanced instructions that
+ can significantly accelerate certain operations, 
+ particularly those involving large datasets, through enhanced vector processing.
+
+-mpopcnt (Population Count) - [enabled]:
+Optimizes counting the number of set bits in binary
+numbers, improving performance in various algorithms 
+that involve counting bits, such as population count operations.
+
+-mssse3 (Supplemental SSE3) - [enabled]:
+Implements Supplemental SSE3, providing additional
+ instructions that can improve performance in 
+ specific arithmetic and bit manipulation operations supported by SSSE3.
+
+########################
+# Solution to task (d) #
+########################
+
+A more flexible approach involves leveraging a build system and specifying
+ optimized flags based on a broader target architecture or feature 
+ set rather than using -march=native. This approach can involve defining
+ multiple build targets or using conditional flags based on the detected
+ architecture during the build process, which ensures the resulting executable
+ can run on various systems without sacrificing performance.

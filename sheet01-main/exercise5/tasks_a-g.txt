@@ -1,0 +1,47 @@
+########################
+# Solution to task (a) #
+########################
+
+Write down your solution to task (a) here, including all commands. You can remove this line.
+
+
+########################
+# Solution to task (b) #
+########################
+
+Write down your solution to task (b) here, including all commands. You can remove this line.
+
+
+########################
+# Solution to task (c) #
+########################
+
+Write down your solution to task (c) here, including all commands. You can remove this line.
+
+
+########################
+# Solution to task (d) #
+########################
+
+Write down your solution to task (d) here, including all commands. You can remove this line.
+
+
+########################
+# Solution to task (e) #
+########################
+
+Write down your solution to task (e) here, including all commands. You can remove this line.
+
+
+########################
+# Solution to task (f) #
+########################
+
+Write down your solution to task (f) here, including all commands. You can remove this line.
+
+
+########################
+# Solution to task (g) #
+########################
+
+Write down your solution to task (g) here, including all commands. You can remove this line.

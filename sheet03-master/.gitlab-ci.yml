@@ -1,0 +1,59 @@
+binary_heap:
+  script:
+    - mkdir ci_build_binary_heap
+    - cd ci_build_binary_heap
+    - cmake -DCMAKE_BUILD_TYPE=Debug ../exercise1
+    - make
+    - ./test/tester
+  tags:
+    - cmake
+
+lint_binary_heap:
+  script:
+    - mkdir ci_lint_binary_heap
+    - cd ci_lint_binary_heap
+    - cmake -DCMAKE_BUILD_TYPE=Debug ../exercise1
+    - make lint
+  tags:
+    - cmake
+    - clang-tidy
+
+sort_pointers:
+  script:
+    - mkdir ci_build_sort_pointers
+    - cd ci_build_sort_pointers
+    - cmake -DCMAKE_BUILD_TYPE=Debug ../exercise2
+    - make
+    - ./test/tester
+  tags:
+    - cmake
+
+lint_sort_pointers:
+  script:
+    - mkdir ci_lint_sort_pointers
+    - cd ci_lint_sort_pointers
+    - cmake -DCMAKE_BUILD_TYPE=Debug ../exercise2
+    - make lint
+  tags:
+    - cmake
+    - clang-tidy
+
+object_representation:
+  script:
+    - mkdir ci_build_object_representation
+    - cd ci_build_object_representation
+    - cmake -DCMAKE_BUILD_TYPE=Debug ../exercise3
+    - make
+    - ./test/tester
+  tags:
+    - cmake
+
+lint_object_representation:
+  script:
+    - mkdir ci_lint_object_representation
+    - cd ci_lint_object_representation
+    - cmake -DCMAKE_BUILD_TYPE=Debug ../exercise3
+    - make lint
+  tags:
+    - cmake
+    - clang-tidy

@@ -1,0 +1,57 @@
+########################
+# Solution to task (a) #
+########################
+the five value categories that C++ actually knows  :
+1-glvalues
+2-xvalues
+3-lvalues
+4-prvalues
+5-rvalues
+
+########################
+# Solution to task (b) #
+########################
+
+  Concerning the code snippet "unsigned i = 0, j = 0;," it serves as a 
+  "declaration statement." Meanwhile, the fragment "++i, j *= 2" 
+  qualifies as an "expression statement." In this specific example,
+   the comma (,) functions as an operator. In C++, the comma operator
+    evaluates expressions sequentially, returning the result of the 
+    final expression. In the given context, it increments i by 1,
+     followed by multiplying j by 2, with the overall expression
+      yielding the result of the last operation (j *= 2).
+
+
+########################
+# Solution to task (c) #
+########################
+
+Distinguishing between numeric promotion and
+ numeric conversion is crucial:
+
+Numeric Promotion: This entails widening
+ the type of a value within the same numeric
+  type category to a larger or more precise type.
+   Examples include converting int to double for
+    floating-point operations or short to int for integer arithmetic.
+
+Numeric Conversion: This involves transforming 
+a value into an entirely different numeric type category. 
+Instances include converting double to int, resulting in decimal truncation,
+ or float to unsigned long long, storing a floating-point value as an unsigned integer.
+
+
+########################
+# Solution to task (d) #
+########################
+
+For printing hexadecimal numbers,
+we utilize the std::hex manipulator. For instance: std::cout << std::hex << 42;
+
+To display numbers with a fixed width and
+ leading zeros, employ std::setw and std::setfill manipulators.
+  For instance: std::cout << std::setw(5) << std::setfill('0') << 42;
+
+To right-align numbers with a fixed width,
+ we use the std::setw manipulator without setting std::setfill.
+  For example: std::cout << std::setw(5) << 42;  

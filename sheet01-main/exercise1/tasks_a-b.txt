@@ -1,0 +1,32 @@
+########################
+# Solution to task (a) #
+########################
+
+The "man" command uses the environment variable MANPAGER, 
+or if not set, falls back to PAGER and finally defaults to 
+"less" as the helper program to display the content of the man pages.
+
+To determine the default program used by the "man" command on our system, 
+use the "man" command with the "--path" option followed by "man". 
+The command is:
+man --path man
+This command will display the path to the man page, revealing the default program
+used for displaying man pages on our system.
+
+
+
+########################
+# Solution to task (b) #
+########################
+
+To find all occurrences of a keyword in the "less" command, 
+we can use the "/" followed by the keyword for searching. 
+To jump to specific lines in a file using "less," 
+we can type the line number followed by "g" and then press Enter. 
+To find this information, 
+I would use the following commands:
+man less
+Inside the "less" man page, I would search for keyword
+ occurrences using the "/" command followed by the keyword
+ and look for instructions on jumping to specific 
+lines by searching for the term "g" in the man page.

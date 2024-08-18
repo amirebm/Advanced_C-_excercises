@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/amir/CPP/sheet03/exercise2/build/lib",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet03/exercise2  -Wall -Wextra -Wpedantic -Werror -std=gnu++20 -o CMakeFiles/sort_pointers_core.dir/SortPointers.cpp.o -c /home/amir/CPP/sheet03/exercise2/lib/SortPointers.cpp",
+  "file": "/home/amir/CPP/sheet03/exercise2/lib/SortPointers.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet03/exercise2/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet03/exercise2  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/Tester.cpp.o -c /home/amir/CPP/sheet03/exercise2/test/Tester.cpp",
+  "file": "/home/amir/CPP/sheet03/exercise2/test/Tester.cpp"
+},
+{
+  "directory": "/home/amir/CPP/sheet03/exercise2/build/test",
+  "command": "/usr/bin/c++  -I/home/amir/CPP/sheet03/exercise2  -Wall -Wextra -Wpedantic -Werror -DGTEST_HAS_PTHREAD=1 -std=gnu++20 -o CMakeFiles/tester.dir/TestSortPointers.cpp.o -c /home/amir/CPP/sheet03/exercise2/test/TestSortPointers.cpp",
+  "file": "/home/amir/CPP/sheet03/exercise2/test/TestSortPointers.cpp"
+}
+]
